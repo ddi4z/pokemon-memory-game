@@ -73,7 +73,7 @@ h1 {
 }
 
 .front {
-    background-image: url("/pokeball.png");
+    background-image: url("./img/pokeball.png");
     background-position: center;
     background-repeat: no-repeat;
     background-color: #121212;

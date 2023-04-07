@@ -3,7 +3,7 @@ const game = document.getElementById('game');
 let firstPokemonIndex = 1;
 let numberOfPokemons = 152;
 let type_of_sprite = 'default';
-let intentos = 0
+let intentos = 0;
 
 const loadPokemon = async () => {
     const randomIds = new Set();
@@ -100,6 +100,8 @@ const setShiny =(type) => {
 }
 const resetGame = async() => {
     game.innerHTML = '';
+    intentos = 0;
+    attempts.textContent = "Attempts: "+intentos;
     isPaused = true;
     firstPick = null;
     matches = 0;

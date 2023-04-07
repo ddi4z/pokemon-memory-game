@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Memory Game</title>
+    <link rel="stylesheet" href="app.css"/>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pokematch</h1>
+
+        </header>
+        <div class="points">
+            <p id="attempts">Attempts: 0</p>
+        </div>
+        <div id='game'>
+        </div>
+
+        <div class="gen">
+            <button onclick="setGen(1,152)">Kanto</button>
+            <button onclick="setGen(152,252)">Johto</button>
+            <button onclick="setGen(252,387)">Hoenn</button>
+            <button onclick="setGen(387,494)">Sinnoh</button>
+            <button onclick="setGen(494,650)">Teselia</button>
+            <button onclick="setGen(650,722)">Kalos</button>
+        </div>
+        <div class="shiny">
+            <button onclick="setShiny('default')">Normal</button>
+            <button onclick="setShiny('shiny')">Shiny</button>
+        </div>
+        <div class="reset">
+            <button onclick="resetGame()">Reset</button>
+
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

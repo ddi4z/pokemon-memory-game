@@ -69,7 +69,8 @@ const clickCard = (e) => {
                 firstPick = null;
                 isPaused = false;
             }, 500)
-        }else {
+        }
+        else {
             matches++;
             firstPick = null;
             isPaused = false;

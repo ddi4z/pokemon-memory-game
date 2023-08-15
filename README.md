@@ -1,5 +1,6 @@
 # pokemon-memory-game
 
-In this project, the PokeAPI has been used to create a memory game based on the pokemons of the first six generations. The PokeAPI is a RESTful API that provides a large amount of information about Pokemon. The game has been developed entirely in vanilla JavaScript, which means that no additional frameworks or libraries have been used.
+This is a project based on the YouTube tutorial [Video Link](https://www.youtube.com/watch?v=Z2O3QxpcdSk), which explores the process of consuming an API to get and display data. I decided to implement this project as part of my learning to better understand the API consumption process.
 
+## Description
 https://ddi4z.github.io/pokemon-memory-game/
